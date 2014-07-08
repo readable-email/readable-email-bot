@@ -6,7 +6,7 @@ var run = require('./lib/run-bot.js');
 var readers = {};
 readers.pipermail = require('./lib/readers/pipermail');
 
-var db = connect(process.env.DATABASE);
+var db = connect(process.argv[2] || process.env.DATABASE);
 
 function onList(list) {
   console.log(list.source);
