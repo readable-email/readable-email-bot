@@ -5,6 +5,7 @@ var run = require('./lib/run-bot.js');
 
 var readers = {};
 readers.pipermail = require('./lib/readers/pipermail');
+readers.w3c = require('./lib/readers/w3c');
 
 var db = connect(process.argv[2] || process.env.DATABASE);
 
