@@ -7,6 +7,7 @@
   "dependencies": {
     "barrage": "~1.0.0",
     "ent": "~2.0.0",
+    "koi8-r": "^0.1.2",
     "mongod": "~1.3.0",
     "ms": "^0.6.2",
     "pipermail": "~2.2.2",
