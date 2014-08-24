@@ -48,7 +48,7 @@ var http = require('http')
 
 http.createServer(function (req, res) {
   var status = 200;
-  if (Date.now() - (new Date(lastStart)).getTime() > ms('10 minutes')) {
+  if (Date.now() - (new Date(lastStart)).getTime() > ms('60 minutes')) {
     status = 503
     onError('Timeout triggering restart');
     setTimeout(function () {
