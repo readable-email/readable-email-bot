@@ -14,7 +14,8 @@
     "readable-lists-api": "0.0.4",
     "slugg": "~0.1.2",
     "then-request": "0.0.4",
-    "throat": "~1.0.0"
+    "throat": "~1.0.0",
+    "windows-1252": "^0.1.2"
   },
   "devDependencies": {
     "testit": "~1.2.0"
