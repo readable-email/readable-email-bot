@@ -1,12 +1,13 @@
 {
   "name": "readable-lists-bot",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "description": "readable-lists-bot",
   "host": "bot.readable-email.org",
   "keywords": [],
   "dependencies": {
     "barrage": "~1.0.0",
     "ent": "~2.0.0",
+    "iso-8859-15": "^0.1.2",
     "koi8-r": "^0.1.2",
     "mongod": "~1.3.0",
     "ms": "^0.6.2",
