@@ -37,7 +37,9 @@ function runBot() {
       var list = lists.pop();
       onList(list);
       var source = new readers[list.type](list._id, list.source);
-      return run(source, db).then(null, onError).then(next);
+      return run(source, db, {
+        parallel: process.env.PARALLEL ? +process.env.PARALLEL : 50
+      }).then(null, onError).then(next);
     }
     return next();
   }).then(null, onError).done(runBot);
@@ -48,7 +50,7 @@ var http = require('http')
 
 http.createServer(function (req, res) {
   var status = 200;
-  if (Date.now() - (new Date(lastStart)).getTime() > ms('60 minutes')) {
+  if (Date.now() - (new Date(lastStart)).getTime() > ms('120 minutes')) {
     status = 503
     onError('Timeout triggering restart');
     setTimeout(function () {
