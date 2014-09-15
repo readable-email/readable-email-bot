@@ -12,7 +12,7 @@
     "ms": "^0.6.2",
     "pipermail": "~2.2.2",
     "promise": "~4.0.0",
-    "readable-lists-api": "0.0.6",
+    "readable-lists-api": "0.0.7",
     "slugg": "~0.1.2",
     "then-request": "0.0.4",
     "throat": "~1.0.0"
