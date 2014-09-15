@@ -1,6 +1,6 @@
 {
   "name": "readable-lists-bot",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "readable-lists-bot",
   "host": "bot.readable-email.org",
   "keywords": [],
@@ -12,7 +12,7 @@
     "ms": "^0.6.2",
     "pipermail": "~2.2.2",
     "promise": "~4.0.0",
-    "readable-lists-api": "0.0.4",
+    "readable-lists-api": "0.0.6",
     "slugg": "~0.1.2",
     "then-request": "0.0.4",
     "throat": "~1.0.0"
