@@ -29,5 +29,8 @@
     "url": "https://github.com/readable-lists/readable-email-bot.git"
   },
   "author": "ForbesLindesay",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "5.7.1"
+  }
 }
