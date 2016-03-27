@@ -18,7 +18,7 @@
     "throat": "~1.0.0"
   },
   "devDependencies": {
-    "testit": "~1.2.0"
+    "testit": "~2.0.4"
   },
   "scripts": {
     "test": "node test",
