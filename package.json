@@ -15,7 +15,7 @@
     "readable-lists-api": "0.0.7",
     "slugg": "~0.1.2",
     "then-request": "0.0.4",
-    "throat": "~1.0.0"
+    "throat": "~3.0.0"
   },
   "devDependencies": {
     "testit": "~2.0.5"
