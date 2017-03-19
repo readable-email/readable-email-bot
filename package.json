@@ -8,7 +8,7 @@
     "barrage": "~1.1.0",
     "ent": "~2.2.0",
     "legacy-encoding": "^3.0.0",
-    "ms": "^0.7.2",
+    "ms": "^1.0.0",
     "pipermail": "~3.1.1",
     "promise": "~4.0.0",
     "readable-lists-api": "0.0.7",
