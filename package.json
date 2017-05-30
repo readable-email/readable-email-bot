@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "node test",
-    "deploy": "npm i heroku-release && heroku-release --app readable-email-bot"
+    "deploy": "npm i heroku-release && heroku-release --app readable-email-bot-staging"
   },
   "repository": {
     "type": "git",
