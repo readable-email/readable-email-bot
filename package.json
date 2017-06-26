@@ -1,32 +1,35 @@
 {
-  "name": "readable-lists-bot",
+  "name": "readable-email-bot",
   "version": "0.1.1",
-  "description": "readable-lists-bot",
+  "description": "readable-email-bot",
   "host": "bot.readable-email.org",
   "keywords": [],
   "dependencies": {
     "barrage": "~1.1.0",
     "ent": "~2.2.0",
     "legacy-encoding": "^3.0.0",
-    "mongod": "~1.3.0",
-    "ms": "^0.7.1",
+    "ms": "^2.0.0",
     "pipermail": "~3.1.1",
     "promise": "~7.1.1",
-    "readable-lists-api": "0.0.7",
-    "slugg": "~1.0.0",
+    "readable-lists-api": "0.0.8",
+    "slugg": "~1.2.0",
     "then-request": "2.2.0",
-    "throat": "~2.0.2"
+    "throat": "~3.0.0"
   },
   "devDependencies": {
-    "testit": "~2.0.3"
+    "testit": "~2.1.0"
   },
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "deploy": "npm i heroku-release && heroku-release --app readable-email-bot-staging"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/readable-lists/readable-lists-bot.git"
+    "url": "https://github.com/readable-lists/readable-email-bot.git"
   },
   "author": "ForbesLindesay",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "8.1.2"
+  }
 }

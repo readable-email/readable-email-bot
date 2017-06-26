@@ -1,11 +1,12 @@
-# readable-lists-bot
+# readable-email-bot
 
-readable-lists-bot
+readable-email-bot
 
 ## Installation
 
-    npm install readable-lists-bot
+    npm install readable-email-bot
 
 ## License
+
 
   MIT
