@@ -30,6 +30,6 @@
   "author": "ForbesLindesay",
   "license": "MIT",
   "engines": {
-    "node": "10.3.0"
+    "node": "10.9.0"
   }
 }
